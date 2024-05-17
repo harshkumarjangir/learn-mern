@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture - 5 - CSS</title>
+
+    <!-- This is Internal CSS given by using Style Tag-->
+    <style>
+        /* This is Universal Selector --Applies to Complete Html Document*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* This is Element/Tag Selector */
+        h1{
+            background-color: aqua;
+        }
+        p{
+            color: red;
+            font-size: large;
+        }
+        h2{
+            background-color: blanchedalmond;
+        }
+        /* This is Multiple/Grouping Selector */
+        table, tr, th, td{
+            border: 10px solid black;
+        }
+        /* This is Class Selector */
+        .green{
+            color: green;
+        }
+        .blue{
+            color: blue;
+        }
+        .text-small{
+            background-color: greenyellow;
+            font-size: small;
+        }
+        .text-larger{
+            background-color: indianred;
+            font-size: larger;
+        }
+        /* This is ID Selector */
+        #intro-para{
+            background-color: aqua;
+            color: black;
+        }
+        /* Pseudo Class */
+        a:hover{
+            color: green;
+        }
+        .link-color:hover{
+            color: gray;
+        }
+        #link-id:hover{
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- This is Inline CSS given by using Style Attribute-->
+    <h1 style="font-style: italic; background-color: blue; color: blanchedalmond;">This is a h1 Heading</h1>
+    
+    <h1>This is a h1 Heading</h1>
+    <p>This is a Paragraph</p>
+
+    <h2>This is a h2 Heading</h2>
+    <p>This is second Paragraph</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Week</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Html</td>
+                <td>CSS</td>
+                <td>JS</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="green">This is green para.</p>
+    <p class="green">This is green para.</p>
+    <p class="blue">This is blue para.</p>
+
+    <h1 class="text-small">This is h1 with small font size</h1>
+    <h2 class="text-small">This is h2 with small font size</h2>
+    <h3 class="text-small">This is h3 with small font size</h3>
+
+    <h4 class="text-larger">This is h4 with larger font size</h4>
+    <h5 class="text-larger">This is h5 with larger font size</h5>
+    <h6 class="text-larger">This is h6 with larger font size</h6>
+
+    <a href="https://harshkumarjangir.netlify.app">Harsh's Portfolio</a>
+    <a class="link-color" href="https://harshkumarjangir.netlify.app">Harsh's Portfolio</a>
+    <a id="link-id" href="https://harshkumarjangir.netlify.app">Harsh's Portfolio</a>
+
+    <p id="intro-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta sint neque placeat harum doloremque expedita porro animi, minus hic suscipit.</p>
+</body>
+</html>

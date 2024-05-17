@@ -1,0 +1,31 @@
+.box{
+    height: 100px;
+    width: 200px;
+    border: 1px solid green;
+    /* background-color: blue;  */
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#box1{
+    /* background-color: orange; */
+    /* Hexadecimal Color */
+    background-color: #838065;
+}
+#box2{
+    /* background-color: white; */
+    /* RGB Color */
+    /* background-color: rgb(136, 222, 93); */
+    /* RGBA Color */
+    background-color: rgba(136, 93, 222, 0.808);
+
+}
+#box3{
+    background-color: green;
+}
+.box-content{
+    width: 500px;
+    height: 500px;
+    border: 1px solid green;
+    overflow: auto;
+}

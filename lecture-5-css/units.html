@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units in CSS</title>
+    <style class="css">
+        .div-1{
+            width: 500px;
+            height: 100px;
+            background-color: red;
+        }
+        .div-2{
+            width: 20%;
+            height: 50%;
+            background-color: blue;
+        }
+        .first-para{
+            background-color: aqua;
+            width: 50vw;
+            height: 50vh;
+        }
+        .font-em{
+            font-size: 1em;
+        }
+        .font-em-child{
+            font-size: 2em;
+        }
+        .font-rem{
+            font-size: 2.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-1">
+        <p>Pixels</p>
+        <div class="div-2">
+            <p>Percentage</p>
+        </div>
+    </div>
+
+    <p class="first-para">This is first para</p>
+
+    <div class="font-em">This is Em Unit
+        <div class="font-em-child">
+            <p>This is Em Unit - Relative to Parent</p>
+        </div>
+    </div>
+    <div class="font-rem">This is Rem Unit - Relative to Html(Root)</div>
+</body>
+</html>

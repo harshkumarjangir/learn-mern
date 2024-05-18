@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+.overflow-visible{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    overflow: visible;
+}
+
+.overflow-hidden{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.overflow-scroll{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+
+.overflow-auto{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    overflow: auto;
+}

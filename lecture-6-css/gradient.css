@@ -1,0 +1,85 @@
+.flex{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    /* background: linear-gradient(red, blue); */
+    /* background: linear-gradient(to right,red, blue); */
+    /* background: linear-gradient(to left,red, blue); */
+    /* background: linear-gradient(to top,red, blue); */
+    /* background: linear-gradient(to bottom,red, blue); */
+    /* background: linear-gradient(to bottom right,red, blue); */
+    /* background: linear-gradient(to bottom right,red, green, blue); */
+    /* background: linear-gradient(45deg, red, blue); */
+    /* background: linear-gradient(to bottom, rgba(255,0,0,0),rgba(0,0,255,1)); */
+}
+
+.linear-gradient-box{
+    background: linear-gradient(orange, white, green);
+}
+.linear-gradient-box-1{
+    background: linear-gradient(red, blue);
+}
+
+.linear-gradient-box-2{
+    background: linear-gradient(to right,red, blue);
+}
+
+.linear-gradient-box-3{
+    background: linear-gradient(to left,red, blue);
+}
+
+.linear-gradient-box-4{
+    background: linear-gradient(to top,red, blue);
+}
+
+.linear-gradient-box-5{
+    background: linear-gradient(to bottom,red, blue);
+}
+
+.linear-gradient-box-6{
+    background: linear-gradient(to bottom right,red, blue);
+}
+
+.linear-gradient-box-7{
+    background: linear-gradient(to bottom right,red, green, blue);
+}
+
+.linear-gradient-box-8{
+    background: linear-gradient(45deg, red, blue);
+}
+
+.linear-gradient-box-9{
+    background: linear-gradient(to bottom, rgba(255,0,0,0),rgba(0,0,255,1));
+}
+
+
+.radial-gradient-box-1{
+    background: radial-gradient(red, blue);
+}
+
+.radial-gradient-box-2{
+    background: radial-gradient(red, blue, orange);
+}
+
+.radial-gradient-box-3{
+    background: radial-gradient(circle,red, blue, orange);
+}
+
+.radial-gradient-box-4{
+    background: radial-gradient(yellow 5%, orange 10%, red 50%);
+}
+
+.radial-gradient-box-5{
+    background: radial-gradient(green, white, orange);
+}

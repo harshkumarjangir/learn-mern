@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: blue;
+    /* transform: translateX(10px); */
+    /* transform: translateY(20px); */
+    /*------------- Horizontal Vertical */
+    /* transform: translate(10px, 20px); */
+    /* transform: rotate(45deg); */
+    /* transform: rotate(-45deg); */
+    margin: 200px;
+    /* transform: scale(2, 10); */
+    /* transform: scale(2.5, 10.5); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(5); */
+    /* transform: skew(45deg); */
+    /* transform: skew(-45deg); */
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+}

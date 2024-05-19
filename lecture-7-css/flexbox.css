@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+
+    /* Flex Container Properties */
+
+    /* Flex Directions */
+
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* Flex Wrap */
+
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+    /* Shorthand Notation of Flex Direction & Flex Wrap */
+
+    /* flex-flow: row wrap; */
+
+    /* Justify Content Along with Main Axis X - Horizontal by Default*/
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* Align Items Along with Cross Axis Y - Vertical by Default*/
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    /* align-items: stretch; */
+    /* Used to macth Baseline of Content */
+    /* align-items: baseline; */
+
+    /* Align Content Row */
+
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    align-content: space-evenly;
+
+
+    /* gap: 10px; */
+    
+}
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+    /* width: 100px; */
+    /* width: 150px; */
+
+     /* Flex Items Properties */
+
+     /* Grows All Flex Items */
+     /* flex-grow: 1; */
+
+     /* Shrinks / Squeeze All Flex Items */
+     /* flex-shrink: 4; */
+
+     /* Flex Basis used to Give / Assign Width to Flex Items */
+     /* flex-basis: 100px; */
+     /* width: 100px; */
+     width: 150px;
+     flex-basis: 50%;
+}
+
+     /* Flex Items Properties */
+#box1{
+    /* Order Sets to Flex Item */
+    order: 1;
+
+    /* Grows This Flex Item */
+    /* flex-grow: 1; */
+
+    /* Shrinks / Squeeze This Flex Item */
+    /* flex-shrink: 4; */
+
+    /* Align Self Aligns the Flex Items */
+    /* align-self: flex-start; */
+}
+#box2{
+    order: 3;
+
+    /* Shrinks / Squeeze This Flex Item */
+    /* flex-shrink: 2; */
+
+    /* Align Self Aligns the Flex Items */
+    /* align-self: stretch; */
+}
+#box3{
+    order: 4;
+
+    /* Align Self Aligns the Flex Items */
+    /* align-self: flex-end; */
+}

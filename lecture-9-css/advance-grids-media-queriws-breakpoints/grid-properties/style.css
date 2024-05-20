@@ -1,0 +1,55 @@
+.container{
+    border: 1px solid orange;
+    background-color: blue;
+
+    height: 700px;
+    width: 600px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    /* gap: 10px; */
+
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: start; */
+    /* align-items: end; */
+    /* align-items: center; */
+    /* Takes Content as Baseline to Aline */
+    /* align-items: baseline; */
+    /* align-items: stretch; */
+
+    /* align-content: start; */
+    /* align-content: end; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+
+    /* place-items: center; */
+
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* place-content: center; */
+}
+
+.box{
+    border: 1px solid salmon;
+    background-color: blanchedalmond;
+}
+
+#box1{
+    /* justify-self: start; */
+    /* justify-self: end; */
+    /* justify-self: center; */
+
+    /* align-self: stretch; */
+    /* align-self: center; */
+    
+}

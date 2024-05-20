@@ -1,0 +1,39 @@
+.container{
+    border: 1px solid salmon;
+    background-color: blue;
+    height: 700px;
+    width: 505px;
+    
+    display: grid;
+    grid-template-rows: 30px 1fr 1fr 30px;
+    grid-template-columns: 1fr;
+
+    gap: 5px;
+
+    grid-template-areas: 
+    "hd"
+    "side"
+    "main"
+    "ft";
+}
+
+.box{
+    border:1px solid green;
+    background-color: blanchedalmond;
+}
+
+#header{
+    grid-area: hd;
+}
+
+#sidebar{
+    grid-area: side;
+}
+
+#content{
+    grid-area: main;
+}
+
+#footer{
+    grid-area: ft;
+}
